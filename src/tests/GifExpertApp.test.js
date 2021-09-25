@@ -20,7 +20,7 @@ describe('Pruebas en GifExpertApp', () => {
         const wrapper = shallow(<GifExpertApp defaultCategories={ categories }/>);
 
         expect( wrapper ).toMatchSnapshot();
-        expect( wrapper.find('GifGrid').length ).toBe( categories.length +1 );
+        expect( wrapper.find('GifGrid').length ).toBe( categories.length);
 
     });
     
