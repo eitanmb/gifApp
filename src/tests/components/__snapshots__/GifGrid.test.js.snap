@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid /> debe hacer bien el render 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__infinite"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en <GifGrid /> debe mostrar un item luego de ejecutar useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Mi Imagen"
+      url="https://localhos/miimagen.jpg"
+    />
+    <GifGridItem
+      id="FGFG"
+      key="FGFG"
+      title="Mi Imagen"
+      url="https://localhos/miimagen.jpg"
+    />
+  </div>
+</Fragment>
+`;
